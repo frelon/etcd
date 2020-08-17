@@ -94,7 +94,7 @@ func startEtcdOrProxyV2() {
 	}
 
 	if cfg.ec.Dir == "" {
-		cfg.ec.Dir = "/perm"
+		cfg.ec.Dir = "/perm/data"
 		lg.Warn(
 			"'data-dir' was empty; using default",
 			zap.String("data-dir", cfg.ec.Dir),
