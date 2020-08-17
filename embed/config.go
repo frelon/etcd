@@ -57,8 +57,8 @@ const (
 	DefaultGRPCKeepAliveInterval = 2 * time.Hour
 	DefaultGRPCKeepAliveTimeout  = 20 * time.Second
 
-	DefaultListenPeerURLs   = "http://localhost:2380"
-	DefaultListenClientURLs = "http://localhost:2379"
+	DefaultListenPeerURLs   = "http://0.0.0.0:2380"
+	DefaultListenClientURLs = "http://0.0.0.0:2379"
 
 	DefaultLogOutput = "default"
 	JournalLogOutput = "systemd/journal"
